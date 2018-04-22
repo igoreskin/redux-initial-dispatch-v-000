@@ -15,7 +15,7 @@ function dispatch(action){
 }
 
 function render(){
-    document.setInnerHtml = state.counter
+    document.innerHTML = state.counter
 }
 
 dispatch({type: '@@INIT'})
